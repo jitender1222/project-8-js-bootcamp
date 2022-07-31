@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow: hidden;
+}
+nav img{
+    width:80px;
+    position: relative;
+    top:20px;
+    left: 20px;
+}
+nav{
+    display: flex;
+}
+.nav-items{
+    display: flex;
+    width:40%;
+    position: relative;
+    top:20px;
+    left:20%;
+    color: rgb(8, 8, 169);
+    justify-content: space-between;
+}
+.signin-btn{
+    position: relative;
+    top:20px;
+    right:-40%;
+    width:100px;
+    border-radius: 10px;
+    border: none;
+    background-image: linear-gradient(to right,#6F00ED, #fbc2eb 100%);
+    color: white;
+}
+
+.left-section{
+    width:30%;
+    position: absolute;
+    top:30%;
+    left:5%;
+}
+h1{
+    color: rgb(57, 57, 147);
+    font-size: 60px;
+    word-spacing: 10px;
+}
+h4{
+    font-size: 20px;
+    font-weight: 100;
+    color:  rgb(57, 57, 147) ;
+    margin-top:40px;
+}
+.learn-more-btn{
+    position: relative;
+    top:40px;
+    width:50%;
+    height:50px;
+    border-radius:20px;
+    border: none;
+    background-image: linear-gradient(to right,#6F00ED, #fbc2eb 100%);
+    color: white;
+    font-size: 20px;
+}
+.imgs-div{
+    position: relative;
+    top: -30px;
+    left:40%;
+    background: url(../images/backcover.svg);
+    height:550px;   
+}
+
+.vector-dot{
+    position: relative;
+    top: -18%;
+    left: -3%;
+}
+
+img[alt~="intro-img"]{
+    position: relative;
+    width: 550px; 
+    left:-10%;  
+    top:80px
+}
